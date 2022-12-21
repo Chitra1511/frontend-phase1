@@ -1,0 +1,66 @@
+.drop{
+  background:linear-gradient(to bottom, #66ccff 0%, #0033cc 100%);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  position: relative;
+  margin-top: 45px;
+  margin-left: 350px;
+  width: 280px;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: default;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.59);
+  border-radius: 10px;
+  
+}
+
+.Download:enabled{
+  background:linear-gradient(to bottom, #66ccff 0%, #0033cc 100%);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  position: relative;
+  margin-top: 370px;
+  margin-left: 1150px;
+  width: 140px;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: default;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.59);
+  border-radius: 10px;
+  transition:all 0.4s ease
+  
+  
+}
+
+.Download:disabled{
+  background-color: grey;
+  
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin-top: 370px;
+  margin-left: 1150px;
+  position: relative;
+  color: white;
+  width: 140px;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor:defaults;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.59);
+  border-radius: 10px;
+}
+
+.selector{
+  background-color: white;
+  color:black;
+  text-align: center;
+}
+.Month{
+  background-color: #0033cc;
+  text-align:justify;
+}
+.selecting{
+  background-color: white;
+  color: white;
+}
